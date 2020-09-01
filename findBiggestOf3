@@ -21,6 +21,8 @@ main()
 	}else if(y>z)
 	{
 		cout<<y<<" is biggest number ";
+	}else
+	{
+		cout<<z<<" is biggest number";
 	}
-	
 }
