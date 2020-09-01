@@ -11,7 +11,7 @@ main()
 	
 	if(x>y)
 	{
-		if(y>z)
+		if(x>z)
 		{
 			cout<<x<<" is biggest number ";
 		}else
