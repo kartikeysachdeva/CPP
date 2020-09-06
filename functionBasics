@@ -1,0 +1,41 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+struct point
+{
+	int x,y;
+};
+point Readpoint(void)
+{
+	int x,y;
+	point crd;
+	cout<<"Enter coordinates: ";
+	cin>>crd.x>>crd.y;
+	return crd;  
+}
+point FindPoint(const point P)
+{
+	point crd1;
+	crd1.x= P.x+4;
+	crd1.y= P.y+6;
+	return crd1; 
+}
+void Displaypoint(const point P)
+{
+	cout<<P.x<<" "<<P.y;
+}
+int main() 
+{
+	point Readpoint(void);
+	point FindPoint(const point P);
+	void DisplayPoint (const point P);
+	
+	point crd, crd1, crd2;
+	crd1= Readpoint();
+	crd2= FindPoint(crd1);
+	cout<<"The two points are: ";
+	Displaypoint(crd2);
+}
+
+
+
