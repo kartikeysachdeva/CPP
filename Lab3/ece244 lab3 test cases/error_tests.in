@@ -1,0 +1,539 @@
+This is a test for all errors.
+create
+create  
+create a
+create a 
+create triangle
+create circle
+create rectangle
+create ellipse
+create tRiAnGlE
+create create
+create a triangle
+create a triangle 1
+create a triangle 1 2
+create a triangle 1 2 3
+create a triangle 1 2 3 4 5
+create b triangle 1 2 3 4 5
+create b triangle 0
+create b triangle -1
+create b triangle 1 -1 2 3
+create b triangle 1 -1 2 3 4
+create b triangle 1 999999999999999999
+create b triangle 1.1
+create b triangle 1.1 2 3 4
+create b triangle 1 2.2 3 4
+create b triangle 1.0 2 3 4
+create b triangle one 2 3 4
+create b triangle 1pointone 2 3 4
+create cirCLE
+create Circle circle 1 2 3 3
+create c circle
+create c circle 1
+create c circle 1 2
+create c circle 1 2 3
+create c circle 1 2 3 3 5
+create d circle 1 2 3 3 5
+create d circle 0
+create d circle -1
+create d circle 1 -1 2 2
+create d circle 1 -1 2 2 4
+create d circle 1 999999999999999999
+create d circle 1.1
+create d circle 1.1 2 3 3
+create d circle 1 2.2 3 3
+create d circle 1.0 2 3 3
+create d circle one 2 3 3
+create recTANGLE
+create ReCTangle rectangle 1 2 3 4
+create r rectangle
+create r rectangle 1
+create r rectangle 1 2
+create r rectangle 1 2 3
+create r rectangle 1 2 3 4 5
+create t rectangle 1 2 3 4 5
+create t rectangle 0
+create t rectangle -1
+create t rectangle 1 -1 2 3
+create t rectangle 1 -1 2 3 4
+create t rectangle 1 999999999999999999
+create t rectangle 1.1
+create t rectangle 1.1 2 3 4
+create t rectangle 1 2.2 3 4
+create t rectangle 1.0 2 3 4
+create t rectangle one 2 3 4
+create t rectangle 1pointone 2 3 4
+create Ellipse
+create ellipse ellipse 1 2 3 4
+create elLipse ellipse 1 2 3 4
+create e ellipse
+create e ellipse 1
+create e ellipse 1 2
+create e ellipse 1 2 3
+create e ellipse 1 2 3 4 5
+create l ellipse 1 2 3 4 5
+create l ellipse 0 
+create l ellipse -1
+create l ellipse 1 -1 2 3
+create l ellipse 1 -1 2 3 4
+create l ellipse 1 999999999999999999
+create l ellipse 1.1
+create l ellipse 1.1 2 3 4
+create l ellipse 1 2.2 3 4
+create l ellipse 1.0 2 3 4
+create l ellipse one 2 3 4
+create l ellipse 1pointone 2 3 4 
+
+draw all
+
+move rectangle 1 2
+move circle 1 2
+move triangle 1 2
+move ellipse 1 2
+move a
+move a 
+move a 0
+move a -1
+move a -1 2
+move a 99999999999999999 2
+move a 1 -1
+move a 1
+move a 1 2
+move r 10 20
+move c 10 20
+move t 10 20
+move e 10 20
+move square 10 20
+move 244 10 20
+move a 1 2 3
+move a 1.1
+move a 1.1 2
+move a 1 2.2
+move a 1 2.2 3
+move a one 2
+move a 1one 2
+move a 1 2 three
+
+draw all
+
+rotate rectangle 1 2
+rotate circle 1 2
+rotate triangle 1 2
+rotate ellipse 1 2
+rotate a
+rotate a  
+rotate a 1
+rotate a -1
+rotate a 99999999
+rotate a 0
+rotate a 360
+rotate a 361
+rotate a 90
+rotate r 90
+rotate c 90
+rotate t 90
+rotate e 90
+rotate square 90
+rotate 244 90
+rotate a 1 2 3
+rotate a 1.1
+rotate a 1.1 2
+rotate a 1 2.2
+rotate a 1 2.2 3
+rotate a one 2
+rotate a 1one 2
+rotate a 1 2 three
+
+draw all
+draw r
+draw e
+draw t
+draw 244
+draw t 1
+draw 1
+draw triAngle
+delete r
+draw r
+rotate r 1
+move r 1   2    
+draw     all
+delete rectangle
+delete ellipse
+delete triangle
+delete circle
+delete all
+draw all
+draw r
+draw e
+
+Start of database
+maxShapes
+maxShapes  
+maxShapes 0
+maxShapes 1
+maxShapes 1 2
+maxShapes 1.1
+maxShapes one
+maxShapes 1one
+maxShapes 3
+create c circle 1 2 3 3
+create t triangle 1 2 3 4
+create r rectangle 1 2 3 4
+create e ellipse 1 2 3 4
+create 244 ellipse 1 2 3 4
+create square rectangle 1 2 3 3
+create square rectangle 1 2 3 3
+create square rectangle -1 2 3 3
+create square rectangle 1   
+create
+create  
+create a
+create a 
+create triangle
+create circle
+create rectangle
+create ellipse
+create tRiAnGlE
+create create
+create a triangle
+create a triangle 1
+create a triangle 1 2
+create a triangle 1 2 3
+create a triangle 1 2 3 4   
+create a triangle 1 2 3 4 5
+create b triangle 1 2 3 4 5
+create b triangle 0
+create b triangle -1
+create b triangle 1 -1 2 3
+create b triangle 1 -1 2 3 4
+create b triangle 1 999999999999999999
+create b triangle 1.1
+create b triangle 1.1 2 3 4
+create b triangle 1 2.2 3 4
+create b triangle 1.0 2 3 4
+create b triangle one 2 3 4
+create b triangle 1pointone 2 3 4
+create cirCLE
+create Circle circle 1 2 3 3
+create c circle
+create c circle 1
+create c circle 1 2
+create c circle 1 2 3
+create c circle 1 2 3 3   
+create c circle 1 2 3 3 5
+create d circle 1 2 3 3 5
+create d circle 0
+create d circle -1
+create d circle 1 -1 2 2
+create d circle 1 -1 2 2 4
+create d circle 1 999999999999999999
+create d circle 1.1
+create d circle 1.1 2 3 3
+create d circle 1 2.2 3 3
+create d circle 1.0 2 3 3
+create d circle one 2 3 3
+create recTANGLE
+create ReCTangle rectangle 1 2 3 4
+create r rectangle
+create r rectangle 1
+create r rectangle 1 2
+create r rectangle 1 2 3
+create r rectangle 1 2 3 4   
+create r rectangle 1 2 3 4 5
+create t rectangle 1 2 3 4 5
+create t rectangle 0
+create t rectangle -1
+create t rectangle 1 -1 2 3
+create t rectangle 1 -1 2 3 4
+create t rectangle 1 999999999999999999
+create t rectangle 1.1
+create t rectangle 1.1 2 3 4
+create t rectangle 1 2.2 3 4
+create t rectangle 1.0 2 3 4
+create t rectangle one 2 3 4
+create t rectangle 1pointone 2 3 4
+create Ellipse
+create ellipse ellipse 1 2 3 4
+create elLipse ellipse 1 2 3 4
+create e ellipse
+create e ellipse 1
+create e ellipse 1 2
+create e ellipse 1 2 3
+create e ellipse 1 2 3 4   
+create e ellipse 1 2 3 4 5
+create l ellipse 1 2 3 4 5
+create l ellipse 0 
+create l ellipse -1
+create l ellipse 1 -1 2 3
+create l ellipse 1 -1 2 3 4
+create l ellipse 1 999999999999999999
+create l ellipse 1.1
+create l ellipse 1.1 2 3 4
+create l ellipse 1 2.2 3 4
+create l ellipse 1.0 2 3 4
+create l ellipse one 2 3 4
+
+draw all
+
+move rectangle 1 2
+move circle 1 2
+move triangle 1 2
+move ellipse 1 2
+move a
+move a 
+move a 0
+move a -1
+move a -1 2
+move a 99999999999999999 2
+move a 1 -1
+move a 1
+move a 1 2
+move r 10 20
+move c 10 20
+move t 10 20
+move e 10 20
+move square 10 20
+move 244 10 20
+move a 1 2 3
+move a 1.1
+move a 1.1 2
+move a 1 2.2
+move a 1 2.2 3
+move a one 2
+move a 1one 2
+move a 1 2 three
+
+draw all
+
+rotate rectangle 1 2
+rotate circle 1 2
+rotate triangle 1 2
+rotate ellipse 1 2
+rotate a
+rotate a  
+rotate a 1
+rotate a -1
+rotate a 99999999
+rotate a 0
+rotate a 360
+rotate a 361
+rotate a 90
+rotate r 90
+rotate c 90
+rotate t 90
+rotate e 90
+rotate square 90
+rotate 244 90
+rotate a 1 2 3
+rotate a 1.1
+rotate a 1.1 2
+rotate a 1 2.2
+rotate a 1 2.2 3
+rotate a one 2
+rotate a 1one 2
+rotate a 1 2 three
+
+draw all
+draw r
+draw e
+draw t
+draw 244
+draw t 1
+draw 1
+draw triAngle
+delete r
+draw r
+rotate r 1
+move r 1   2    
+draw     all
+delete rectangle
+delete ellipse
+delete triangle
+delete circle
+delete all
+draw all
+draw r
+draw e
+
+maxShapes 12
+
+create c circle 1 2 3 3
+create t triangle 1 2 3 4
+create r rectangle 1 2 3 4
+create e ellipse 1 2 3 4
+create 244 ellipse 1 2 3 4
+create square rectangle 1 2 3 3
+create square rectangle 1 2 3 3
+create square rectangle -1 2 3 3
+create square rectangle 1   
+create
+create  
+create a
+create a 
+create triangle
+create circle
+create rectangle
+create ellipse
+create tRiAnGlE
+create create
+create a triangle
+create a triangle 1
+create a triangle 1 2
+create a triangle 1 2 3
+create a triangle 1 2 3 4   
+create a triangle 1 2 3 4 5
+create b triangle 1 2 3 4 5
+create b triangle 0
+create b triangle -1
+create b triangle 1 -1 2 3
+create b triangle 1 -1 2 3 4
+create b triangle 1 999999999999999999
+create b triangle 1.1
+create b triangle 1.1 2 3 4
+create b triangle 1 2.2 3 4
+create b triangle 1.0 2 3 4
+create b triangle one 2 3 4
+create b triangle 1pointone 2 3 4
+create cirCLE
+create Circle circle 1 2 3 3
+create c circle
+create c circle 1
+create c circle 1 2
+create c circle 1 2 3
+create c circle 1 2 3 3   
+create c circle 1 2 3 3 5
+create d circle 1 2 3 3 5
+create d circle 0
+create d circle -1
+create d circle 1 -1 2 2
+create d circle 1 -1 2 2 4
+create d circle 1 999999999999999999
+create d circle 1.1
+create d circle 1.1 2 3 3
+create d circle 1 2.2 3 3
+create d circle 1.0 2 3 3
+create d circle one 2 3 3
+create recTANGLE
+create ReCTangle rectangle 1 2 3 4
+create r rectangle
+create r rectangle 1
+create r rectangle 1 2
+create r rectangle 1 2 3
+create r rectangle 1 2 3 4   
+create r rectangle 1 2 3 4 5
+create t rectangle 1 2 3 4 5
+create t rectangle 0
+create t rectangle -1
+create t rectangle 1 -1 2 3
+create t rectangle 1 -1 2 3 4
+create t rectangle 1 999999999999999999
+create t rectangle 1.1
+create t rectangle 1.1 2 3 4
+create t rectangle 1 2.2 3 4
+create t rectangle 1.0 2 3 4
+create t rectangle one 2 3 4
+create t rectangle 1pointone 2 3 4
+create Ellipse
+create ellipse ellipse 1 2 3 4
+create elLipse ellipse 1 2 3 4
+create e ellipse
+create e ellipse 1
+create e ellipse 1 2
+create e ellipse 1 2 3
+create e ellipse 1 2 3 4   
+create e ellipse 1 2 3 4 5
+create l ellipse 1 2 3 4 5
+create l ellipse 0 
+create l ellipse -1
+create l ellipse 1 -1 2 3
+create l ellipse 1 -1 2 3 4
+create l ellipse 1 999999999999999999
+create l ellipse 1.1
+create l ellipse 1.1 2 3 4
+create l ellipse 1 2.2 3 4
+create l ellipse 1.0 2 3 4
+create l ellipse one 2 3 4
+
+draw all
+
+move rectangle 1 2
+move circle 1 2
+move triangle 1 2
+move ellipse 1 2
+move a
+move a 
+move a 0
+move a -1
+move a -1 2
+move a 99999999999999999 2
+move a 1 -1
+move a 1
+move a 1 2
+move r 10 20
+move c 10 20
+move t 10 20
+move e 10 20
+move square 10 20
+move 244 10 20
+move a 1 2 3
+move a 1.1
+move a 1.1 2
+move a 1 2.2
+move a 1 2.2 3
+move a one 2
+move a 1one 2
+move a 1 2 three
+
+draw all
+
+rotate rectangle 1 2
+rotate circle 1 2
+rotate triangle 1 2
+rotate ellipse 1 2
+rotate a
+rotate a  
+rotate a 1
+rotate a -1
+rotate a 99999999
+rotate a 0
+rotate a 360
+rotate a 361
+rotate a 90
+rotate r 90
+rotate c 90
+rotate t 90
+rotate e 90
+rotate square 90
+rotate 244 90
+rotate a 1 2 3
+rotate a 1.1
+rotate a 1.1 2
+rotate a 1 2.2
+rotate a 1 2.2 3
+rotate a one 2
+rotate a 1one 2
+rotate a 1 2 three
+
+draw all
+draw r
+draw e
+draw t
+draw 244
+draw t 1
+draw 1
+draw triAngle
+delete r
+draw r
+rotate r 1
+move r 1   2    
+draw     all
+delete rectangle
+delete ellipse
+delete triangle
+delete circle
+delete all
+draw all
+draw r
+draw e
+
+

@@ -1,0 +1,37 @@
+# Project: Inheritance
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = Circle.o Parser.o Rectangle.o Triangle.o
+LINKOBJ  = Circle.o Parser.o Rectangle.o Triangle.o
+LIBS     = -L"C:/DDrive/GCC/MinGW64/lib" -L"C:/DDrive/GCC/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc C:/DDrive/Thulasi/MyPrograms/MyProjects/MyTests/Assignments/Kartikey/C++/Labs/Lab5/Solution/Shape.o C:/DDrive/Thulasi/MyPrograms/MyProjects/MyTests/Assignments/Kartikey/C++/Labs/Lab5/Solution/ShapesDB.o -g3
+INCS     = -I"C:/DDrive/GCC/MinGW64/include" -I"C:/DDrive/GCC/MinGW64/x86_64-w64-mingw32/include" -I"C:/DDrive/GCC/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/DDrive/GCC/MinGW64/include" -I"C:/DDrive/GCC/MinGW64/x86_64-w64-mingw32/include" -I"C:/DDrive/GCC/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/DDrive/GCC/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Inheritance.exe
+CXXFLAGS = $(CXXINCS) -Og -std=gnu++11 -g3
+CFLAGS   = $(INCS) -Og -std=gnu++11 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Circle.o: Circle.cpp
+	$(CPP) -c Circle.cpp -o Circle.o $(CXXFLAGS)
+
+Parser.o: Parser.cpp
+	$(CPP) -c Parser.cpp -o Parser.o $(CXXFLAGS)
+
+Rectangle.o: Rectangle.cpp
+	$(CPP) -c Rectangle.cpp -o Rectangle.o $(CXXFLAGS)
+
+Triangle.o: Triangle.cpp
+	$(CPP) -c Triangle.cpp -o Triangle.o $(CXXFLAGS)
